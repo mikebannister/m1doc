@@ -1,0 +1,31 @@
+body {
+	font-family: "Gill Sans","Gill Sans Std","Gill Sans MT",Georgia,serif;
+	font-size: 1.1em;
+	line-height: 1.6em;
+	margin: auto;
+	width: 720px;
+	background: url(../images/bg.jpg);
+}
+img {
+	border: 0;
+}
+a, a:visited {
+	text-decoration: none;
+	color: #335E73;
+}
+a:hover { 
+	color: #608292;
+}
+#main {
+	width: 570px;
+	float: right;
+}
+body.wide {
+    width: 90%;
+}
+body.wide #sidebar {
+    width: 0;
+}
+body.wide #main {
+    width: 100%;
+}

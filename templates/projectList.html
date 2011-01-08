@@ -1,0 +1,16 @@
+<html>
+  <head>
+    <title>
+      Document projects
+    </title>
+    <link rel="stylesheet" href="/css/base.css" type="text/css" media="screen" />
+  </head>
+  <body>
+    <h1>Document projects</h1>
+    <ul>
+      <% for(var i = 0; i < projectList.length; i++) {%>
+         <li><a href="<%= projectList[i].name %>/"><%= projectList[i].name %></a></li>
+      <% } %>
+    </ul>
+  </body>
+</html>

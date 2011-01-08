@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <title>
+      <%- project %> documents
+    </title>
+    <link rel="stylesheet" href="/css/base.css" type="text/css" media="screen" />
+  </head>
+  <body>
+    <a href="/">&laquo; back to project list</a>
+    <h1><%- project %> documents</h1>
+    <ul>
+      <% for(var i = 0; i < docList.length; i++) {%>
+         <li><a href="<%= docList[i] %>.html"><%= docList[i] %></a></li>
+      <% } %>
+    </ul>
+  </body>
+</html>

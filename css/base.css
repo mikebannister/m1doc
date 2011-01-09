@@ -1,7 +1,8 @@
 body {
 	font-family: "Gill Sans","Gill Sans Std","Gill Sans MT",Georgia,serif;
 	margin: auto;
-	padding: 1em;
+	padding-top: 1em;
+	padding-bottom: 2em;
 	width: 720px;
 	background: url(../images/bg.jpg);
 }

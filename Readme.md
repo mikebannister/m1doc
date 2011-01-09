@@ -1,6 +1,7 @@
 # Doc server #
 
-This util allows me to symlink all my markdown based documentation into a directory and haveconverted to HTML and served up by a node instance. Styles are applied and a simple index is created.
+Input a bunch of markdown projects
+Output styled, static documentation browser served by Node.js
 
 ## Prerequisites ##
 

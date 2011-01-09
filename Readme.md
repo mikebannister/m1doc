@@ -1,7 +1,6 @@
 # Doc server #
 
-This util allows me to symlink all my markdown based documentation into a directory and have it served
-up by a node instance. Styles are applied and a simple index is created.
+This util allows me to symlink all my markdown based documentation into a directory and haveconverted to HTML and served up by a node instance. Styles are applied and a simple index is created.
 
 ## Prerequisites ##
 

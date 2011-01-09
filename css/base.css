@@ -1,9 +1,7 @@
 body {
 	font-family: "Gill Sans","Gill Sans Std","Gill Sans MT",Georgia,serif;
-	font-size: 1.1em;
-	line-height: 1.6em;
-	padding-top: 1em;
 	margin: auto;
+	padding: 1em;
 	width: 720px;
 	background: url(../images/bg.jpg);
 }
@@ -17,16 +15,12 @@ a, a:visited {
 a:hover { 
 	color: #608292;
 }
-#main {
-	width: 570px;
-	float: right;
-}
-body.wide {
-    width: 90%;
-}
-body.wide #sidebar {
-    width: 0;
-}
-body.wide #main {
-    width: 100%;
+pre {
+	background-color: #cfdfe8;
+	padding: 15px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	-khtml-border-radius: 4px;
+	border-bottom:1px solid #fff;
 }

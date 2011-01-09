@@ -1,6 +1,6 @@
 # Doc server #
 
-Input a bunch of markdown projects
+Input a bunch of markdown document projects
 
 Output styled, static documentation browser served by Node.js
 

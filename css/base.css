@@ -2,6 +2,7 @@ body {
 	font-family: "Gill Sans","Gill Sans Std","Gill Sans MT",Georgia,serif;
 	font-size: 1.1em;
 	line-height: 1.6em;
+	padding-top: 1em;
 	margin: auto;
 	width: 720px;
 	background: url(../images/bg.jpg);
